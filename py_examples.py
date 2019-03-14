@@ -36,3 +36,7 @@ everyone''')
 a comment here not inside print'''
 
 print("I'm Hungry for \"Pizza\"")
+
+print("Type a number")
+n=int(input())
+print("Square of the number is ", n*n)
