@@ -1,5 +1,5 @@
-#n= int(input("Give Pyramid Height: "))
-n=4
+n= int(input("Give Pyramid Height: "))
+
 for i in range(n+1):
     print('*'* i)
 
@@ -25,7 +25,7 @@ for i in range(n,0, -1):
     k += 2
 
 print(25*'-')
-
+##############Inverted Pyramids####################
 
 for i in range(n,0,-1):
     print(i * '*')
@@ -36,3 +36,20 @@ l=0
 for i in range(n,0,-1):
     print(l*' '+i*'*')
     l += 1
+
+print(25*'-')
+
+l=0
+for i in range(n,0,-1):
+    print(l*' '+i*'* ')
+    l += 1
+
+print(25*'-')
+k = n * 2 - 1
+for i in range(n):
+    print(i*' '+ k * '*')
+    k -= 2
+
+print(25*'-')
+
+
