@@ -16,3 +16,18 @@ names('Ana','Rock')
 diff_babies('Shyam','Prem')
 cute_baby('Adrija')
 nobaby()
+
+def printline(filename):
+    print(filename.readline())
+
+cfile = open("py_examples_3.py")
+
+printline(cfile)
+printline(cfile)
+print(cfile.read())
+cfile.close()
+
+def addition(a,b):
+    return a+b
+
+print(addition(2,5))
